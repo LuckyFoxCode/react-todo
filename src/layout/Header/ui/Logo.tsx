@@ -4,7 +4,7 @@ export const Logo = () => {
       href='/'
       className='font-medium text-3xl text-red-400'
     >
-      ToDo<span className='text-black'>HQ</span>
+      ToDo<span className='transition-all text-black dark:text-white'>HQ</span>
     </a>
   );
 };
