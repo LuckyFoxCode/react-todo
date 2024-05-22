@@ -5,15 +5,13 @@ import { CiBellOn, CiCalendar } from 'react-icons/ci';
 
 interface GroupButtonProps {
   className?: string;
-  theme: boolean;
-  setTheme: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 export const GroupButton: React.FC<GroupButtonProps> = ({ className }) => {
   const style = 'p-2 rounded-md bg-red-400 focus:outline-none';
 
   return (
-    <Box className={cn('gap-x-2 mr-10', className)}>
+    <Box className={cn('gap-x-2 md:mr-5 lg:mr-10', className)}>
       <button className={style}>
         <Icon
           name={CiBellOn}

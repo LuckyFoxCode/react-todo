@@ -14,7 +14,7 @@ export const Date = () => {
 
   return (
     <div className='flex flex-col text-sm'>
-      <p className='text-red-300'>{currentTime.format('LTS')}</p>
+      <p className='hidden text-red-300 md:flex'>{currentTime.format('LTS')}</p>
       <p className=' text-[15px] text-center transition-all dark:text-white'>
         {moment().format('dddd')}
       </p>
