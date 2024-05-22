@@ -1,3 +1,9 @@
+import { Header } from '@/layout';
+
 export const App = () => {
-  return <>App component</>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 };
