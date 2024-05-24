@@ -1,4 +1,5 @@
-import { Box } from '@/components/common';
+import { Box, Button } from '@/components/common';
+import { MdGroupAdd } from 'react-icons/md';
 
 export const Dashboard: React.FC = () => {
   return (
@@ -9,13 +10,20 @@ export const Dashboard: React.FC = () => {
         </p>
         <Box>
           <Box className='gap-x-1 mr-5'>
-            <div className='size-9 rounded-[8px] bg-blue-400' />
-            <div className='size-9 rounded-[8px] bg-blue-400' />
-            <div className='size-9 rounded-[8px] bg-blue-400' />
-            <div className='size-9 rounded-[8px] bg-blue-400' />
-            <div className='size-9 rounded-[8px] bg-blue-400' />
+            <div className='size-10 rounded-[8px] bg-blue-400' />
+            <div className='size-10 rounded-[8px] bg-blue-400' />
+            <div className='size-10 rounded-[8px] bg-blue-400' />
+            <div className='size-10 rounded-[8px] bg-blue-400' />
+            <div className='size-10 rounded-[8px] bg-blue-400' />
           </Box>
-          <button>Invite</button>
+          <Button
+            withIcon
+            iconName={MdGroupAdd}
+            iconSize={16}
+            className='flex items-center text-sm text-red-400 p-2 border border-red-400 rounded-lg'
+          >
+            <span className='ml-2'>Invite</span>
+          </Button>
         </Box>
       </Box>
     </Box>
