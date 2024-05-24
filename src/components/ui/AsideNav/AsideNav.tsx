@@ -1,4 +1,4 @@
-import { Box, Icon } from '@/ui';
+import { Box, Icon } from '@/components/common';
 import {
   CiCircleQuestion,
   CiDatabase,

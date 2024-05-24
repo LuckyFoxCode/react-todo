@@ -1,5 +1,5 @@
-import { Box } from '@/ui';
-import { Date, GroupButton, Logo } from './ui';
+import { Box } from '@/components/common';
+import { Date, GroupButton, Logo } from './components';
 
 export const Header = () => {
   return (

@@ -1,4 +1,4 @@
-import { Box } from '@/ui';
+import { Box } from '@/components/common';
 
 export const UserInfo: React.FC = () => {
   return (

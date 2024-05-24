@@ -1,4 +1,4 @@
-import { Icon } from '@/ui';
+import { Icon } from '@/components/common';
 import { cn } from '@/utils/libs';
 import { useEffect, useState } from 'react';
 import { CiDark, CiLight } from 'react-icons/ci';

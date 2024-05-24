@@ -1,12 +1,14 @@
-import { Header, SideNav } from '@/layout';
+import { Box } from '@/components/common';
+import { Content, Header, SideNav } from '@/layout';
 
 export const App = () => {
   return (
     <>
       <Header />
-      <main className='flex flex-col'>
+      <Box>
         <SideNav />
-      </main>
+        <Content />
+      </Box>
     </>
   );
 };

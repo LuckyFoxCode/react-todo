@@ -1,5 +1,5 @@
-import { AsideNav } from '@/components';
-import { UserAvatar, UserInfo } from './ui';
+import { AsideNav } from '@/components/ui';
+import { UserAvatar, UserInfo } from './components';
 
 export const SideNav: React.FC = () => {
   return (

@@ -1,5 +1,5 @@
-import { ThemeSwitcher } from '@/components';
-import { Box, Icon } from '@/ui';
+import { Box, Icon } from '@/components/common';
+import { ThemeSwitcher } from '@/components/ui';
 import { cn } from '@/utils/libs';
 import { CiBellOn, CiCalendar } from 'react-icons/ci';
 
